@@ -1,1 +1,16 @@
-3月22日
+3月25日
+
+1.
+hby@hby:~/OrbbecSDK/examples/cpp/Sample-ColorViewer$ ls
+CMakeCache.txt  CMakeFiles  cmake_install.cmake  CMakeLists.txt  ColorViewer.cpp  Image  Makefile  README_CN.md  README.md
+hby@hby:~/OrbbecSDK/examples/cpp/Sample-ColorViewer$ make
+[ 50%] Building CXX object CMakeFiles/OBColorViewer.dir/ColorViewer.cpp.o
+In file included from /home/hby/OrbbecSDK/examples/cpp/Sample-ColorViewer/ColorViewer.cpp:1:
+/home/hby/OrbbecSDK/examples/cpp/window.hpp:4:10: fatal error: libobsensor/ObSensor.hpp: 没有那个文件或目录
+    4 | #include <libobsensor/ObSensor.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/OBColorViewer.dir/build.make:76：CMakeFiles/OBColorViewer.dir/ColorViewer.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:83：CMakeFiles/OBColorViewer.dir/all] 错误 2
+make: *** [Makefile:136：all] 错误 2
+
